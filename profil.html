@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Lab Software Engineering</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--icon Hamburger-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <img src="img/profil.jpg" alt="logo" class="logo" />
+        <h3>Teknik Informatika</h3>
+      </div>
+
+      <nav class="navbar">
+        <button class="hamburger">
+          <span class="material-icons">menu</span>
+        </button>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="profil.html" aria-expanded="false">profil</a>
+            <ul class="dropdown-menu">
+              <li><a href="profil.html#tim-lab">Tim Lab</a></li>
+              <li><a href="profil.html#visi&misi">Visi dan Misi</a></li>
+              <li><a href="profil.html#history">Sejarah</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="jadwal.html">Jadwal</a>
+            <ul class="dropdown-menu">
+              <li><a href="jadwal.html#jadwal_operasional">Jadwal Operasional</a></li>
+              <li><a href="jadwal.html#jadwal_praktikum">Jadwal Pratikum</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#fasilitas">Fasilitas</a></li>
+          <li><a href="index.html#kontak">Kontak</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="team.html">My Team</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="background">
+      <img src="img/ft1.jpg" alt="informatika">
+    <div class="overplay"></div>
+    </div>
+
+    <section id="tim-lab" class="tim-lab">
+      <h1>Kepala Laboratorium</h1>
+      <img src="img/profil1.jpg" alt="kepala-lab">
+      <h3>Statiswaty, S.T., MMSI</h3>
+    </section>
+
+    <section class="section">
+      <h2 id="visi&misi">Visi & Misi</h2>
+      <div class="visi">
+          <h3>Visi</h3>
+          <p>"Pada Tahun 2024 menjadi program studi Teknik Informatika terdepan di tingkat nasional
+              yang menghasilkan SDM cerdas komprehensif, profesional dan berdaya saing tinggi dalam 
+              bidang informatika sesuai karakteristik wilayah kepulauan."
+          </p>
+      </div>
+  
+      <div class="misi">
+        <h3>Misi</h3>
+        <ul>
+          <li>Menyelenggarakan pendidikan dan pengajaran berbasis riset bidang informatika dengan memanfaatkan kemajuan teknologi informasi dan komunikasi.</li>
+          <li>Mengembangkan penelitian unggulan sesuai karakteristik wilayah kepulauan pada publikasi ilmiah nasional dan internasional serta perolehan hak atas kekayaan intelektual.</li>
+          <li>Menerapkan hasil-hasil penelitian dan produk unggulan lainnya bagi kesejahteraan institusi masyarakat dan kemajuan IPTEK.</li>
+          <li>Menyelenggarakan sistem tata kelola program studi yang transparan dan akuntabel sehingga mampu memberikan pelayanan prima dalam pendidikan.</li>
+          <li>Mengembangkan potensi mahasiswa di bidang informatika, untuk membangun citra program studi di tingkat nasional dan internasional.</li>
+          <li>Mengembangkan kampus hijau untuk mendukung penyelenggaraan Tridharma perguruan tinggi.</li>
+        </ul>
+      </div>
+
+      <div class="history">
+        <h3 id="history" >Sejarah Singkat</h3>
+        <p>
+            Lab software engineering ini adalah lab yang di gunakan untuk aktivitas praktikum maupun aktivitas 
+            penelitian oleh mahasiswa tingkat akhir yang berkonsentrasi pada peminatan RPL (Rekayasa Perangkat 
+            Lunak).Sebelum berganti nama  menjadi software engineering,nama Lab ini adalah Lab RPL.Lab ini juga 
+            biasa di gunakan untuk matakuliah matakuliah terkait.Namun kadang ada juga aktifitas penelitian lain 
+            yang dilakukan yang tidak berkaitan dengan matakuliah,namun dengan tetap menggunakan prosedur prosedur 
+            yang sudah di tentukan.
+        </p>
+      </div>
+    </section>
+
+    <section id="kontak" class="kontak">
+      <h1>Kontak Kami</h1>
+      <div class="kontak-container">
+
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4219.
+              543832676186!2d122.51556088877027!3d-4.0115439479931!2m3!1f0!2f0!3f0!3m2
+              !1i1024!2i768!4f13.1!3m3!1m2!1s0x2d988d42e9642585%3A0x69827e643d339c17!2s
+              Fakultas%20Teknik%20-%20UHO!5e0!3m2!1sid!2sid!4v1736511459770!5m2!1sid!2sid"
+            width="400"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <div class="kontak-form">
+          <form>
+            <label>Nama:</label>
+            <input type="text"><br><br>
+            <label>Email:</label>
+            <input type="email"><br><br>
+            <label>Pesan:</label>
+            <textarea></textarea><br><br>
+            <button>Kirim</button>
+          </form>  
+        </div>
+      </div>
+      
+      <div class="info-kontak">
+        <p>Alamat: Kampus Bumi Tridharma Anduonohu, Jalan H.E.A. Mokodompit, Kodya Kendari, Sulawesi Tenggara </p>
+        <p>Telp: -</p>
+        <p>Email: <a href="mailto:info@example.com">teknik@uho.ac.id</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+
+        <div class="about-us">
+          <h3><a href="profil.html">profil</a></h3>
+          <p><li><a href="profil.html#visi&misi">Visi dan Misi</a></li></p>
+          <p><li><a href="profil.html#history">Sejarah</a></li></p>
+          <p><li><a href="profil.html#tim-lab">Tim Lab</a></li></p>
+          <p>&copy; 2025 | Elektro23</p>
+        </div>
+
+        <div class="get-in-touch">
+          <h3>Get In Touch</h3>
+          <p>Jl HEA Mokodompit Kampus Baru<br>UHO Fakultas Teknik</p>
+          <p>📞 +6280000111</p>
+          <p>✉ teknik@uho.ac.id</p>
+        </div>
+        <div class="jadwal">
+          <h3><a href="jadwal.html">Jadwal</a></h3>
+          <p><li><a href="jadwal.html#jadwal_operasional">Jadwal Operasional</a></li></p>
+          <p><li><a href="jadwal.html#jadwal_praktikum">Jadwal Praktiukum</a></li></p>
+  
+        </div>
+        <div class="social-media">
+          <h3><a href="galeri.html">Galeri</a></h3>
+          <div class="social-icons">
+                <img src="img/foto.jpg" alt="fasilitas">
+                <img src="img/foto1.jpg" alt="fasilitas">
+                <img src="img/foto2.jpg" alt="fasilitas">
+                <img src="img/foto3.jpg" alt="fasilitas">
+                <img src="img/foto4.jpg" alt="fasilitas">
+                <img src="img/foto5.jpg" alt="fasilitas">
+                <img src="img/foto6.jpg" alt="fasilitas">
+                <img src="img/foto7.jpg" alt="fasilitas">
+                <img src="img/foto8.jpg" alt="fasilitas">
+          </div>
+        </div>
+      </div>
+      <p class="terms"><a href="#">Laboratorium Software Engineering</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+
+  </body>
+</html>

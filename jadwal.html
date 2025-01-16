@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Lab Software Engineering</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--icon Hamburger-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Penghubung Css-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <img src="img/profil.jpg" alt="logo" class="logo" />
+        <h3>Teknik Informatika</h3>
+      </div>
+
+      <!--Menu Navigasi-->
+
+      <nav class="navbar">
+        <button class="hamburger">
+          <span class="material-icons">menu</span>
+        </button>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="profil.html" aria-expanded="false">profil</a>
+            <ul class="dropdown-menu">
+              <li><a href="profil.html#tim-lab">Tim Lab</a></li>
+              <li><a href="profil.html#visi&misi">Visi dan Misi</a></li>
+              <li><a href="profil.html#history">Sejarah</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="jadwal.html">Jadwal</a>
+            <ul class="dropdown-menu">
+              <li><a href="jadwal.html#jadwal_operasional">Jadwal Operasional</a></li>
+              <li><a href="jadwal.html#jadwal_praktikum">Jadwal Pratikum</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#fasilitas">Fasilitas</a></li>
+          <li><a href="index.html#kontak">Kontak</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="team.html">My Team</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+        <div id="jadwal_operasional" class="jadwal_operasional">
+            <h2>Jadwal Operasional Laboratorium</h2>
+            <div class="jadwal_ops">
+                <h3>Jadwal Operasinal</h3>
+                <p>
+                    1. Hari Kerja: Senin - Sabtu <br>
+                    2. Jam Operasional: 08.00 - 16.00 WIB <br>
+                    3. Istirahat: 12.00 - 13.00 WIB                    
+                </p>
+              </div>
+              <div class="jadwal_teknis">
+                <h3>Jadwal Teknis</h3>
+                <p>
+                    1. Penggunaan Lab: 09.00 - 12.00 WIB dan 13.00 - 16.00 WIB
+                </p>
+              </div>
+              <div class="hari_libur">
+                <h3>Hari Libur</h3>
+                <p>
+                    1. Sabtu, Minggu <br>
+                    2. Hari Raya Nasional <br>
+                    3. Hari Libur Universitas                    
+                </p>
+              </div>
+              <div class="keterangan">
+                <h3>Keterangan</h3>
+                <p>
+                    1. Penggunaan lab harus reservasi terlebih dahulu. <br>
+                    2. Pengguna lab harus mematuhi peraturan keselamatan dan kebersihan.
+                </p>
+              </div>
+        </div>
+
+        <div id="jadwal_praktikum" class="jadwal_praktikum">
+           <h2>Jadwal Praktikum Semester</h2></a>
+            <table>
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Mata Kuliah</th>
+                  <th>Hari</th>
+                  <th>Waktu</th>
+                  <th>Ruang</th>
+                  <th>Dosen</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1.</td>
+                  <td>Pemrograman Web (GJ)</td>
+                  <td>Senin</td>
+                  <td>07:30-10:00</td>
+                  <td>IT-L AB.RPL</td>
+                  <td>Bambang Pramono, S.Si., MT. & Ir. Subardin, S.T., M.T.</td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>Sistem Penunjang Keputusan (Peminatan RPL)</td>
+                  <td>Senin</td>
+                  <td>10:01-12:30</td>
+                  <td>IT-LAB. SOFTWARE ENGINEERING</td>
+                  <td>Dr. Ir. Muhammad Ihsan Sarita, M.Kom. & La Ode Muhammad Bahtiar Aksara, S.T., M.T.</td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>Logika Fuzzy (A)</td>
+                  <td>Selasa</td>
+                  <td>07:30-10:00</td>
+                  <td>IT-LAB.SOFTWARE ENGINEERING</td>
+                  <td>Dr. Ir. Muhammad Ihsan Sarita, M.Kom. & Asa Hari Wibowo.</td>
+                </tr>
+                <tr>
+                  <td>4.</td>
+                  <td>Analisis dan Desain Perangkat Lunak</td>
+                  <td>Selasa</td>
+                  <td>10:01-12:30</td>
+                  <td>IT-LAB. SOFTWARE ENGINEERING</td>
+                  <td>Statiswaty, ST., MM.Si. & Jumadil Nangi, S.Kom., M.Kom.</td>
+                </tr>
+                <tr>
+                  <td>5.</td>
+                  <td>Pemrograman Berorientasi Objek (GJ)</td>
+                  <td>Selasa</td>
+                  <td>13:01-15:30</td>
+                  <td>IT-LAB. SOFTWARE ENGINEERING</td>
+                  <td>Bambang Pramono, S.Si., MT. & Adha Mashur Sajiah, M.Eng.</td>
+                </tr>
+                <tr>
+                  <td>6.</td>
+                  <td>Pemrograman Web (GP)</td>
+                  <td>Rabu</td>
+                  <td>07:30-10:00</td>
+                  <td>IT-LAB. SOFTWARE ENGINEERING</td>
+                  <td>Bambang Pramono, S.Si., MT. & Ir. Subardin, S.T., M.T.</td>
+                </tr>
+                <tr>
+                  <td>7.</td>
+                  <td>Interaksi Manusia dan Komputer</td>
+                  <td>Rabu</td>
+                  <td>10:01-12:30</td>
+                  <td>IT-LAB. SOFTWARE ENGINEERING</td>
+                  <td>Isnawaty, S.Si., MT. & Ir. Hasmina Tari Mokui, ST., ME., Ph.D.</td>
+                </tr>
+                <tr>
+                  <td>8.</td>
+                  <td>Arsitektur Perangkat Lunak (Peminatan RPL)</td>
+                  <td>Rabu</td>
+                  <td>13:01-15:30</td>
+                  <td>IT-LAB. SOFTWARE ENGINEERING</td>
+                  <td>Statiswaty, ST., MM.Si. & La Ode Muhammad Bahtiar Aksara, S.T., M.T.</td>
+                </tr>
+                <tr>
+                  <td>9.</td>
+                  <td>Manajemen Proyek Teknologi Informasi (GP)</td>
+                  <td>Kamis</td>
+                  <td>07:30-10:00</td>
+                  <td>IT-LAB. SOFTWARE ENGINEERING</td>
+                  <td>Statiswaty, ST., MM.Si. & Isnawaty, S.Si., MT.</td>
+                </tr>
+                <tr>
+                  <td>10.</td>
+                  <td>Algoritma dan Pemrograman (GP)</td>
+                  <td>Kamis</td>
+                  <td>10:01-12:30</td>
+                  <td>IT-LAB. SOFTWARE ENGINEERING</td>
+                  <td>Bambang Pramono, S.Si., MT. & Sutardi, S.Kom., M.T.</td></tr>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </section>
+    
+    
+    <section id="kontak" class="kontak">
+        <h1>Kontak Kami</h1>
+        <div class="kontak-container">
+  
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4219.
+                543832676186!2d122.51556088877027!3d-4.0115439479931!2m3!1f0!2f0!3f0!3m2
+                !1i1024!2i768!4f13.1!3m3!1m2!1s0x2d988d42e9642585%3A0x69827e643d339c17!2s
+                Fakultas%20Teknik%20-%20UHO!5e0!3m2!1sid!2sid!4v1736511459770!5m2!1sid!2sid"
+              width="400"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+  
+          <div class="kontak-form">
+            <form>
+              <label>Nama:</label>
+              <input type="text"><br><br>
+              <label>Email:</label>
+              <input type="email"><br><br>
+              <label>Pesan:</label>
+              <textarea></textarea><br><br>
+              <button>Kirim</button>
+            </form>  
+          </div>
+        </div>
+        
+        <div class="info-kontak">
+          <p>Alamat: Kampus Bumi Tridharma Anduonohu, Jalan H.E.A. Mokodompit, Kodya Kendari, Sulawesi Tenggara </p>
+          <p>Telp: -</p>
+          <p>Email: <a href="mailto:info@example.com">teknik@uho.ac.id</a></p>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="footer-container">
+  
+          <div class="about-us">
+            <h3><a href="index.html">About Us</a></h3>
+            <p>Laboratorium Software Engineering<br>Teknik Informatika</p>
+            <p>Informasi</p>
+          </div>
+  
+          <div class="profil">
+            <h3><a href="profil.html">profil</a></h3>
+            <p><li><a href="profil.html#visi&misi">Visi dan Misi</a></li></p>
+            <p><li><a href="profil.html#history">Sejarah</a></li></p>
+            <p><li><a href="profil.html#tim-lab">Tim Lab</a></li></p>
+            <p>&copy; 2025 | Elektro23</p>
+          </div>
+  
+          <div class="get-in-touch">
+            <h3>Get In Touch</h3>
+            <p>Jl HEA Mokodompit Kampus Baru<br>UHO Fakultas Teknik</p>
+            <p>📞 +6280000111</p>
+            <p>✉ teknik@uho.ac.id</p>
+          </div>
+          <div class="jadwal">
+            <h3><a href="jadwal.html">Jadwal</a></h3>
+            <p><li><a href="jadwal.html#jadwal_operasional">Jadwal Operasional</a></li></p>
+            <p><li><a href="jadwal.html#jadwal_praktikum">Jadwal Praktiukum</a></li></p>
+    
+          </div>
+          <div class="social-media">
+            <h3><a href="galeri.html">Galeri</a></h3>
+            <div class="social-icons">
+                  <img src="img/foto.jpg" alt="fasilitas">
+                  <img src="img/foto1.jpg" alt="fasilitas">
+                  <img src="img/foto2.jpg" alt="fasilitas">
+                  <img src="img/foto3.jpg" alt="fasilitas">
+                  <img src="img/foto4.jpg" alt="fasilitas">
+                  <img src="img/foto5.jpg" alt="fasilitas">
+                  <img src="img/foto6.jpg" alt="fasilitas">
+                  <img src="img/foto7.jpg" alt="fasilitas">
+                  <img src="img/foto8.jpg" alt="fasilitas">
+            </div>
+          </div>
+        </div>
+        <p class="terms"><a href="#">Laboratorium Software Engineering</a></p>
+      </footer>
+
+      <script src="js/script1.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>
